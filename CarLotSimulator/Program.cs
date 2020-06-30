@@ -16,11 +16,11 @@ namespace CarLotSimulator
             var newCarLot = new CarLot();
 
             //Now that the Car class is created we can instanciate 3 new cars
-            
 
-            var newCar1 = new Car();
-            var newCar2 = new Car();
-            var newCar3 = new Car();
+
+            var newCar1 = new Car() { Year = 1978, Make = "Ford", Model = "F150", EngineNoise = "Chuga Chuga", HonkNoise = "Hooonk", IsDrivable = true };
+            var newCar2 = new Car() { Year = 2005, Make = "Chevy", Model = "Camaro", EngineNoise = "Vroom Vroom", HonkNoise = "Ahhooga", IsDrivable = false };
+            var newCar3 = new Car() { Year = 1997, Make = "Toyota", Model = "Tacoma", EngineNoise = "vrr vrr", HonkNoise = "Hink Hink", IsDrivable = true };
 
             newCarLot.LotList.Add(newCar1);
             newCarLot.LotList.Add(newCar2);
@@ -30,25 +30,27 @@ namespace CarLotSimulator
 
             //Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
 
-            newCar1.Year = 1978;
-            newCar2.Year = 2002;
-            newCar3.Year = 2020;
 
-            newCar1.Make = "Ford";
-            newCar2.Make = "Chevy";
-            newCar3.Make = "Nissan";
 
-            newCar1.Model = "F150";
-            newCar2.Model = "Trans Am";
-            newCar3.Model = "Sentra";
+            //newCar1.Year = 1978;
+            //newCar2.Year = 2002;
+            //newCar3.Year = 2020;
 
-            newCar1.EngineNoise = "chugga chugga";
-            newCar2.EngineNoise = "vroom vroom";
-            newCar3.EngineNoise = "ticky tacky";
+            //newCar1.Make = "Ford";
+            //newCar2.Make = "Chevy";
+            //newCar3.Make = "Nissan";
 
-            newCar1.IsDrivable = true;
-            newCar2.IsDrivable = false; 
-            newCar3.IsDrivable = true;
+            //newCar1.Model = "F150";
+            //newCar2.Model = "Trans Am";
+            //newCar3.Model = "Sentra";
+
+            //newCar1.EngineNoise = "chugga chugga";
+            //newCar2.EngineNoise = "vroom vroom";
+            //newCar3.EngineNoise = "ticky tacky";
+
+            //newCar1.IsDrivable = true;
+            //newCar2.IsDrivable = false; 
+            //newCar3.IsDrivable = true;
 
 
 
